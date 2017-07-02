@@ -1,0 +1,43 @@
+#main-nav-wrapper, .mobile-nav-bar {
+  position: fixed !important;
+}
+
+.site-description, .site-info {
+  display: none;
+}
+
+#menu-menu-principal > li > a, .site-title {
+  font-weight: 300 !important;
+}
+
+.pageTitle {
+  display: flex;
+  height: 10rem;
+  align-items: center;
+}
+
+.pageTitle {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.pageTitle--bg + #content {
+  margin-top: 0;
+}
+
+.pageTitle__inner {
+  text-indent: 3rem;
+  font-weight: 300;
+}
+
+.pageTitle--bg .container, .pageTitle--bg .container .pageTitle__inner {
+  color: #fff;
+  z-index: 1;
+}
+
+.pageTitle__colorBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

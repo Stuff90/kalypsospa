@@ -1,0 +1,21 @@
+.header__websiteName {
+  @include title(300);
+}
+
+.header__menuToggle {
+  border: none;
+}
+
+.header__menuWrapper {
+  @include title(300);
+
+  @media (max-width: 768px) {
+    margin-left: 15px;
+  }
+}
+
+.header__wrapper {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

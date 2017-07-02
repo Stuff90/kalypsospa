@@ -1,0 +1,16 @@
+@mixin title($weight : 400) {
+  font-family: 'Lato', sans-serif;
+  font-weight: $weight;
+}
+
+@mixin text($weight : 300) {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: $weight;
+}
+
+@mixin block() {
+  background: white;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.14);
+}
