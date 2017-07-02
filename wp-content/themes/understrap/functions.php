@@ -1,4 +1,5 @@
 <?php
+@ini_set( 'upload_max_size' , '5M' );
 /**
  * Understrap functions and definitions
  *
