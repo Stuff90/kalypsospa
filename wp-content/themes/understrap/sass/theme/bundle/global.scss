@@ -187,7 +187,10 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-basis: 33.33%;
+  
+  @media (min-width: 768px) {
+    flex-basis: 33.33%;
+  }
 }
 
 .landingService__image {
