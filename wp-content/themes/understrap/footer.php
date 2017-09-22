@@ -57,6 +57,17 @@ $container = get_theme_mod( 'understrap_container_type' );
   // console.log($('#slideshowPage'));
 })(jQuery);
 </script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106568473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+  gtag('config', 'UA-106568473-1');
+</script>
+
 </body>
 
 </html>
